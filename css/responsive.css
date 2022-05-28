@@ -1,0 +1,17 @@
+/*for tablate */
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+    .logo_area{ text-align:center;}
+    .logo_area img {width: 40%;}
+    .mean-container .mean-nav ul {width: 70%;}
+    .mean-container .mean-nav ul li a {padding: 0 5%;padding-top:5px;}
+    .mean-container .mean-nav ul li p {padding-left:5%;margin:0;padding-bottom:5px;}
+}
+@media only screen and (min-width: 200px) and (max-width:580px) {
+    .contact_section {width: 100%;text-align: center;}
+    .search_bar {margin: 0 auto;}
+    .inner_work_area, .inner_testimonial_area, .inner_top_footer, .inner_copyright_area, .column, .inner_member {-webkit-flex-direction:column;flex-direction:column;}
+    .child_work {margin-right: 20px;margin-left: 20px;margin-bottom: 20px;}
+    .child_top_footer {margin-bottom:10px;}
+    .child_services {padding-bottom: 20px;}
+    .child_member {padding-bottom: 34px;}
+}
